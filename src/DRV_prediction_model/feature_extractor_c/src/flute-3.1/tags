@@ -1,0 +1,426 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AA	flute.c	940;"	d	file:
+AAWL	flute.c	382;"	d	file:
+ACCURACY	flute.h	5;"	d
+ADIFF	flute.h	95;"	d
+BB	flute.c	941;"	d	file:
+BBWL	flute.c	383;"	d	file:
+BUFFERSIZE	bookshelf_IO.h	15;"	d
+Branch	flute.h	/^} Branch;$/;"	t	typeref:struct:__anon1
+BreakInX	flute.c	1040;"	d	file:
+BreakInX	flute.c	470;"	d	file:
+BreakPt	flute.c	1039;"	d	file:
+BreakPt	flute.c	469;"	d	file:
+CC	Makefile	/^CC = gcc$/;"	m
+CFLAGS	Makefile	/^CFLAGS =-g -O3 -I.$/;"	m
+D	flute.h	35;"	d
+D1	flute.h	37;"	d
+D2	flute.h	38;"	d
+D2M	flute_mst.c	14;"	d	file:
+D3	flute_mst.c	/^int D3=INFNTY;$/;"	v
+DEFAULT_QSIZE	flute_mst.c	30;"	d	file:
+DL_H	dl.h	2;"	d
+DMAX	memAlloc.h	17;"	d
+DMIN	memAlloc.h	21;"	d
+DSQR	memAlloc.h	14;"	d
+DTYPE	flute.h	11;"	d
+EARLY_QUIT_CRITERIA	flute_mst.c	/^int EARLY_QUIT_CRITERIA=1;$/;"	v
+FALSE	global.h	7;"	d
+FIRST_ROUND	flute_mst.c	/^int FIRST_ROUND=2; \/\/ note that num of total rounds = 1+FIRST_ROUND$/;"	v
+FMAX	memAlloc.h	25;"	d
+FMIN	memAlloc.h	29;"	d
+FREE_ARG	memAlloc.c	14;"	d	file:
+HPwl	flute-ckt.c	/^float HPwl()$/;"	f
+Heap	heap.h	/^typedef  struct heap_info  Heap;$/;"	t	typeref:struct:heap_info
+IMAX	memAlloc.h	41;"	d
+IMIN	memAlloc.h	45;"	d
+INFNTY	flute_mst.c	12;"	d	file:
+LINESIZE	bookshelf_IO.h	16;"	d
+LMAX	memAlloc.h	33;"	d
+LMIN	memAlloc.h	37;"	d
+LOCAL_REFINEMENT	flute.h	7;"	d
+LUT	flute.c	/^struct csoln *LUT[D+1][MGROUP];  \/\/ storing 4 .. D$/;"	v	typeref:struct:csoln
+MAX	memAlloc.h	49;"	d
+MAXD	flute.h	4;"	d
+MAXLONG	global.h	8;"	d
+MAXPART	flute_mst.c	17;"	d	file:
+MAXPART	flute_mst.c	20;"	d	file:
+MAXPART2	flute_mst.c	21;"	d	file:
+MAXT	flute_mst.c	18;"	d	file:
+MAXT	flute_mst.c	22;"	d	file:
+MAX_HEAP_SIZE	flute_mst.c	60;"	d	file:
+MEM_END	memAlloc.c	13;"	d	file:
+MGROUP	flute.c	11;"	d	file:
+MGROUP	flute.c	14;"	d	file:
+MGROUP	flute.c	8;"	d	file:
+MIN	memAlloc.h	50;"	d
+MPOWV	flute.c	12;"	d	file:
+MPOWV	flute.c	15;"	d	file:
+MPOWV	flute.c	9;"	d	file:
+MR_FOR_SMALL_CASES_ONLY	flute_mst.c	15;"	d	file:
+NODES	bookshelf_IO.c	/^    typedef struct nodesHash NODES;$/;"	t	typeref:struct:nodesHash	file:
+NetsInfo	bookshelf_IO.c	/^    NODES **NetsInfo = NULL;$/;"	v
+NodesInfo	bookshelf_IO.c	/^    NODES **NodesInfo = NULL;$/;"	v
+OBJ	Makefile	/^OBJ     = $(SRC:.c=.o)$/;"	m
+POSTFILE	flute.h	34;"	d
+POWVFILE	flute.h	33;"	d
+Point	global.h	/^typedef  struct point Point;$/;"	t	typeref:struct:point
+REMOVE_DUPLICATE_PIN	flute.h	8;"	d
+RN	bookshelf_IO.c	/^    unsigned long *RN = NULL;$/;"	v
+ROUTING	flute.h	6;"	d
+ROW	bookshelf_IO.h	/^    typedef struct row_data ROW;$/;"	t	typeref:struct:row_data
+SIGN	memAlloc.h	48;"	d
+SQR	memAlloc.h	11;"	d
+SRC	Makefile	/^SRC     = dist.c dl.c err.c heap.c mst2.c neighbors.c \\$/;"	m
+TAU	flute.h	36;"	d
+TRUE	global.h	6;"	d
+Tree	flute.h	/^} Tree;$/;"	t	typeref:struct:__anon2
+TreeNode	flute_mst.c	/^} TreeNode;$/;"	t	typeref:struct:TreeNode_s	file:
+TreeNode_s	flute_mst.c	/^typedef struct TreeNode_s{$/;"	s	file:
+USE_HASHING	flute_mst.c	32;"	d	file:
+_BOOKSHELF_IO_H_	bookshelf_IO.h	13;"	d
+_DIST_H_	dist.h	2;"	d
+_ERR_H_	err.h	2;"	d
+_GLOBAL_H_	global.h	2;"	d
+_HEAP_H_	heap.h	2;"	d
+_MEMALLOC_H_	memAlloc.h	8;"	d
+_MST2_H_	mst2.h	2;"	d
+_heap	heap.c	/^Heap*   _heap = (Heap*)NULL;$/;"	v
+_heap_size	heap.c	/^long    _heap_size = 0;$/;"	v
+_max_heap_size	heap.c	/^long    _max_heap_size = 0;$/;"	v
+_pt	neighbors.c	/^static Point* _pt;$/;"	v	file:
+abs	flute.h	94;"	d
+allocate_heap	heap.c	/^void  allocate_heap( long n )$/;"	f
+allocate_nn_arrays	neighbors.c	/^void  allocate_nn_arrays( long  n )$/;"	f
+aux	neighbors.c	/^long*  aux      = (long*)NULL;  $/;"	v
+averageCellWidth	bookshelf_IO.c	/^    float averageCellWidth;$/;"	v
+benchmarkName	bookshelf_IO.c	/^    char *benchmarkName = NULL;$/;"	v
+blen	flute_mst.c	/^  DTYPE blen;  \/\/ length of this edge (i.e. branch length)$/;"	m	struct:TreeNode_s	file:
+branch	flute.h	/^    Branch *branch;   \/\/ array of tree branches$/;"	m	struct:__anon2
+brute_force_nearest_neighbors	neighbors.c	/^void  brute_force_nearest_neighbors$/;"	f
+build_rmst	flute_mst.c	/^void build_rmst(long d, DTYPE *x, DTYPE *y, int *edges, int *inMST)$/;"	f
+cedge_lca	flute_mst.c	/^inline TreeNode *cedge_lca(TreeNode* n1, TreeNode* n2, DTYPE *len, int *n2ton1)$/;"	f
+cellArea	bookshelf_IO.c	/^    float *cellArea = NULL;$/;"	v
+cellHeight	bookshelf_IO.c	/^    float *cellHeight = NULL;$/;"	v
+cellName	bookshelf_IO.c	/^    char **cellName = NULL;$/;"	v
+cellOrientation	bookshelf_IO.c	/^    char **cellOrientation = NULL;$/;"	v
+cellWidth	bookshelf_IO.c	/^    float *cellWidth = NULL;$/;"	v
+check_nn	neighbors.c	/^void  check_nn$/;"	f
+children	flute_mst.c	/^  dl_t children;$/;"	m	struct:TreeNode_s	file:
+cleanTree	flute_mst.c	/^void cleanTree(TreeNode* tn)$/;"	f
+cmatrix	memAlloc.c	/^char **cmatrix(long nrl, long nrh, long ncl, long nch)$/;"	f
+cmpNodeByOrder	flute_mst.c	/^int cmpNodeByOrder(void* a, void* b)$/;"	f
+cmpNodeByXY	flute_mst.c	/^int cmpNodeByXY(const void* a, const void* b)$/;"	f
+cmpNodeByYX	flute_mst.c	/^int cmpNodeByYX(const void* a, const void* b)$/;"	f
+cmpXdata	flute_mst.c	/^int cmpXdata(void *a, void *b)$/;"	f
+cmp_branch	flute_mst.c	/^int cmp_branch(const void *a, const void *b) {$/;"	f
+collect_nodes	flute_mst.c	/^void collect_nodes(TreeNode* tn, dl_t nlist)$/;"	f
+comp_float	memAlloc.c	/^int comp_float(const void *i, const void *j) {$/;"	f
+comp_int	memAlloc.c	/^int comp_int(const void *i, const void *j) {$/;"	f
+compare_x	neighbors.c	/^static  int compare_x$/;"	f	file:
+convert_matrix	memAlloc.c	/^float **convert_matrix(float *a, long nrl, long nrh, long ncl, long nch)$/;"	f
+coreHeight	bookshelf_IO.c	/^    float siteOriginY, siteEndY, coreHeight;$/;"	v
+coreRowHeight	bookshelf_IO.c	/^    float coreRowHeight;$/;"	v
+coreWidth	bookshelf_IO.c	/^    float siteOriginX, siteEndX, coreWidth;$/;"	v
+core_row	bookshelf_IO.c	/^    ROW *core_row = NULL;$/;"	v
+count	dl.h	/^  unsigned int count;$/;"	m	struct:__anon5
+createHash	bookshelf_IO.c	/^void createHash(char benchmarkPath[], char nodesFile[]) $/;"	f
+createRootedTree	flute_mst.c	/^TreeNode *createRootedTree(Tree t, int *order, int id, dl_t list_of_nodes)$/;"	f
+critical_edge	flute_mst.c	/^TreeNode *critical_edge(TreeNode* n1, TreeNode* n2, DTYPE *len, int *n2ton1)$/;"	f
+csoln	flute.c	/^struct csoln $/;"	s	file:
+curr_mark	flute_mst.c	/^unsigned int curr_mark=0;$/;"	v
+cut_and_splice	flute_mst.c	/^void cut_and_splice(TreeNode *n1, TreeNode *n2,$/;"	f
+cvector	memAlloc.c	/^unsigned char *cvector(long nl, long nh)$/;"	f
+deallocate_heap	heap.c	/^void  deallocate_heap()$/;"	f
+deallocate_nn_arrays	neighbors.c	/^void  deallocate_nn_arrays()$/;"	f
+deg	flute.h	/^    int deg;   \/\/ degree$/;"	m	struct:__anon2
+dist	dist.c	/^long  dist($/;"	f
+dist2	dist.c	/^long  dist2($/;"	f
+dl_alloc	dl.c	/^dl_t dl_alloc()$/;"	f
+dl_append	dl.h	124;"	d
+dl_clear	dl.c	/^void dl_clear(dl_t dl)$/;"	f
+dl_concat	dl.c	/^void dl_concat(dl_t first_list, dl_t second_list)$/;"	f
+dl_current	dl.h	48;"	d
+dl_data	dl.h	26;"	d
+dl_data_p	dl.h	29;"	d
+dl_delete	dl.c	/^void dl_delete(dl_t dl, dl_el *el)$/;"	f
+dl_delete_current	dl.h	49;"	d
+dl_duplicate	dl.h	171;"	d
+dl_el	dl.h	/^} dl_el;$/;"	t	typeref:struct:dl_el_s
+dl_el_s	dl.h	/^typedef struct dl_el_s {$/;"	s
+dl_empty	dl.h	24;"	d
+dl_endfor	dl.h	51;"	d
+dl_first	dl.h	71;"	d
+dl_first_element	dl.h	75;"	d
+dl_forall	dl.h	32;"	d
+dl_forall_p	dl.h	40;"	d
+dl_forall_reverse	dl.h	55;"	d
+dl_forall_reverse_p	dl.h	63;"	d
+dl_free	dl.h	166;"	d
+dl_insert_after	dl.h	107;"	d
+dl_insert_before	dl.h	90;"	d
+dl_insertion_sort	dl.c	/^static void dl_insertion_sort(dl_t dl, size_t el_size,$/;"	f	file:
+dl_last	dl.h	78;"	d
+dl_length	dl.h	22;"	d
+dl_pop_first	dl.h	81;"	d
+dl_pop_last	dl.h	87;"	d
+dl_prepend	dl.h	145;"	d
+dl_s	dl.h	/^} dl_s, *dl_t;$/;"	t	typeref:struct:__anon5
+dl_sort	dl.c	/^void dl_sort(dl_t dl, size_t el_size, int(*compar)(void *, void *))$/;"	f
+dl_t	dl.h	/^} dl_s, *dl_t;$/;"	t	typeref:struct:__anon5
+dmatrix	memAlloc.c	/^double **dmatrix(long nrl, long nrh, long ncl, long nch)$/;"	f
+dmaxarg1	memAlloc.h	/^static double dmaxarg1,dmaxarg2;$/;"	v
+dmaxarg2	memAlloc.h	/^static double dmaxarg1,dmaxarg2;$/;"	v
+dmergetree	flute.c	/^Tree dmergetree(Tree t1, Tree t2)$/;"	f
+dminarg1	memAlloc.h	/^static double dminarg1,dminarg2;$/;"	v
+dminarg2	memAlloc.h	/^static double dminarg1,dminarg2;$/;"	v
+dq_nearest_neighbors	neighbors.c	/^void  dq_nearest_neighbors$/;"	f
+dsqrarg	memAlloc.h	/^static double dsqrarg;$/;"	v
+dvector	memAlloc.c	/^double *dvector(long nl, long nh)$/;"	f
+e	flute_mst.c	/^  struct TreeNode_s *e;$/;"	m	struct:TreeNode_s	typeref:struct:TreeNode_s::TreeNode_s	file:
+elt	heap.h	/^  long  elt;$/;"	m	struct:heap_info
+enqueue	flute_mst.c	/^inline void enqueue(int **q, int e)$/;"	f
+err_exit	err.c	/^void  err_exit($/;"	f
+err_msg	err.c	/^void  err_msg($/;"	f
+error_text	bookshelf_IO.c	/^    char error_text[BUFFERSIZE];$/;"	v
+exchange_branches_order_x	flute_mst.c	/^DTYPE exchange_branches_order_x(int num_nodes, TreeNode **nodes, $/;"	f
+exchange_branches_order_y	flute_mst.c	/^DTYPE exchange_branches_order_y(int num_nodes, TreeNode **nodes, $/;"	f
+extract_heap	flute_mst.c	/^void extract_heap(node_pair *np)$/;"	f
+f3tensor	memAlloc.c	/^float ***f3tensor(long nrl, long nrh, long ncl, long nch, long ndl, long ndh)$/;"	f
+final	bookshelf_IO.c	34;"	d	file:
+first	dl.h	/^  dl_el *first, *last;$/;"	m	struct:__anon5
+flute	flute.c	/^Tree flute(int d, DTYPE x[], DTYPE y[], int acc)$/;"	f
+flute_am	flute_mst.c	/^Tree flute_am(int d, DTYPE *xs, DTYPE *ys, int *s, int acc, $/;"	f
+flute_mr	flute_mst.c	/^Tree flute_mr(int d, DTYPE *xs, DTYPE *ys, int *s,$/;"	f
+flute_wl	flute.c	/^DTYPE flute_wl(int d, DTYPE x[], DTYPE y[], int acc)$/;"	f
+flutes	flute.h	75;"	d
+flutes	flute.h	78;"	d
+flutes_ALLD	flute.h	82;"	d
+flutes_HD	flute_mst.c	/^Tree flutes_HD(int d, DTYPE *xs, DTYPE *ys, int *s, int acc)$/;"	f
+flutes_LD	flute.c	/^Tree flutes_LD(int d, DTYPE xs[], DTYPE ys[], int s[])$/;"	f
+flutes_LMD	flute.h	89;"	d
+flutes_MD	flute.c	/^Tree flutes_MD(int d, DTYPE xs[], DTYPE ys[], int s[], int acc)$/;"	f
+flutes_RDP	flute.c	/^Tree flutes_RDP(int d, DTYPE xs[], DTYPE ys[], int s[], int acc)$/;"	f
+flutes_c	flute_mst.c	/^Tree flutes_c(int d, DTYPE *xs, DTYPE *ys, int *s, int acc)$/;"	f
+flutes_wl	flute.h	74;"	d
+flutes_wl	flute.h	77;"	d
+flutes_wl_ALLD	flute.h	81;"	d
+flutes_wl_LD	flute.c	/^DTYPE flutes_wl_LD(int d, DTYPE xs[], DTYPE ys[], int s[])$/;"	f
+flutes_wl_LMD	flute.h	87;"	d
+flutes_wl_MD	flute.c	/^DTYPE flutes_wl_MD(int d, DTYPE xs[], DTYPE ys[], int s[], int acc)$/;"	f
+flutes_wl_RDP	flute.c	/^DTYPE flutes_wl_RDP(int d, DTYPE xs[], DTYPE ys[], int s[], int acc)$/;"	f
+flutewl	flute-ckt.c	/^float flutewl()$/;"	f
+freeHash	bookshelf_IO.c	/^void freeHash()$/;"	f
+freeTree	flute_mst.c	/^void freeTree(TreeNode *t)$/;"	f
+free_cmatrix	memAlloc.c	/^void free_cmatrix(char **m, long nrl, long nrh, long ncl, long nch)$/;"	f
+free_convert_matrix	memAlloc.c	/^void free_convert_matrix(float **b, long nrl, long nrh, long ncl, long nch)$/;"	f
+free_cvector	memAlloc.c	/^void free_cvector(unsigned char *v, long nl, long nh)$/;"	f
+free_dmatrix	memAlloc.c	/^void free_dmatrix(double **m, long nrl, long nrh, long ncl, long nch)$/;"	f
+free_dvector	memAlloc.c	/^void free_dvector(double *v, long nl, long nh)$/;"	f
+free_f3tensor	memAlloc.c	/^void free_f3tensor(float ***t, long nrl, long nrh, long ncl, long nch,$/;"	f
+free_imatrix	memAlloc.c	/^void free_imatrix(int **m, long nrl, long nrh, long ncl, long nch)$/;"	f
+free_imatrix3D	memAlloc.c	/^void free_imatrix3D(int ***t, int nrl, int nrh, int ncl, int nch,$/;"	f
+free_ivector	memAlloc.c	/^void free_ivector(int *v, long nl, long nh)$/;"	f
+free_lmatrix	memAlloc.c	/^void free_lmatrix(unsigned long **m, long nrl, long nrh, long ncl, long nch)$/;"	f
+free_lmatrix3D	memAlloc.c	/^void free_lmatrix3D(unsigned long ***t, long nrl, long nrh, long ncl, long nch,$/;"	f
+free_lvector	memAlloc.c	/^void free_lvector(unsigned long *v, long nl, long nh)$/;"	f
+free_matrix	memAlloc.c	/^void free_matrix(float **m, long nrl, long nrh, long ncl, long nch)$/;"	f
+free_submatrix	memAlloc.c	/^void free_submatrix(float **b, long nrl, long nrh, long ncl, long nch)$/;"	f
+free_vector	memAlloc.c	/^void free_vector(float *v, long nl, long nh)$/;"	f
+gain	flute_mst.c	/^  DTYPE new_x, new_y, gain;$/;"	m	struct:__anon3	file:
+getIndex	bookshelf_IO.c	/^inline long getIndex(char temp[])$/;"	f
+get_hashfunc	bookshelf_IO.c	/^inline uint32_t get_hashfunc(const void *key, size_t length, uint32_t initval)$/;"	f
+hashBits	bookshelf_IO.c	/^    long hashSize, hashBits;$/;"	v
+hashFlag	bookshelf_IO.c	/^    unsigned char *hashFlag = NULL;$/;"	v
+hashSize	bookshelf_IO.c	/^    long hashSize, hashBits;$/;"	v
+hashmask	bookshelf_IO.c	23;"	d	file:
+hashsize	bookshelf_IO.c	22;"	d	file:
+hdist	flute_mst.c	/^DTYPE **hdist;$/;"	v
+heap	flute_mst.c	/^node_pair *heap; \/\/heap[MAXD*MAXD]; $/;"	v
+heap_decrease_key	heap.c	/^void  heap_decrease_key$/;"	f
+heap_delete_min	heap.c	/^long  heap_delete_min()$/;"	f
+heap_elt	heap.h	19;"	d
+heap_idx	heap.h	18;"	d
+heap_info	heap.h	/^struct  heap_info$/;"	s
+heap_init	heap.c	/^void  heap_init( long  n )$/;"	f
+heap_insert	heap.c	/^void  heap_insert( $/;"	f
+heap_key	heap.h	17;"	d
+heap_size	flute_mst.c	/^int heap_size=0;$/;"	v
+height	bookshelf_IO.h	/^        float height;$/;"	m	struct:row_data
+hmergetree	flute.c	/^Tree hmergetree(Tree t1, Tree t2, int s[])$/;"	f
+ht	flute_mst.c	/^dl_t ht[D2M+1]; \/\/ hash table of subtrees indexed by degree$/;"	v
+id	flute_mst.c	/^  int order, id;$/;"	m	struct:TreeNode_s	file:
+idx	heap.h	/^  long  idx;$/;"	m	struct:heap_info
+imatrix	memAlloc.c	/^int **imatrix(long nrl, long nrh, long ncl, long nch)$/;"	f
+imatrix3D	memAlloc.c	/^int ***imatrix3D(int nrl, int nrh, int ncl, int nch, int ndl, int ndh)$/;"	f
+imaxarg1	memAlloc.h	/^static int imaxarg1,imaxarg2;$/;"	v
+imaxarg2	memAlloc.h	/^static int imaxarg1,imaxarg2;$/;"	v
+iminarg1	memAlloc.h	/^static int iminarg1,iminarg2;$/;"	v
+iminarg2	memAlloc.h	/^static int iminarg1,iminarg2;$/;"	v
+in_heap	heap.h	21;"	d
+in_heap_order	flute_mst.c	/^int in_heap_order(int e1, int e2)$/;"	f
+index	bookshelf_IO.c	/^        unsigned long index;$/;"	m	struct:nodesHash	file:
+init_param	flute_mst.c	/^void init_param()$/;"	f
+init_queue	flute_mst.c	48;"	d	file:
+insert_heap	flute_mst.c	/^void insert_heap(node_pair *np)$/;"	f
+ivector	memAlloc.c	/^int *ivector(long nl, long nh)$/;"	f
+key	heap.h	/^  long  key;$/;"	m	struct:heap_info
+last	dl.h	/^  dl_el *first, *last;$/;"	m	struct:__anon5
+len	flute_mst.c	/^  DTYPE len;  \/\/ len of current e$/;"	m	struct:TreeNode_s	file:
+length	flute.h	/^    DTYPE length;   \/\/ total wirelength$/;"	m	struct:__anon2
+lmatrix	memAlloc.c	/^unsigned long **lmatrix(long nrl, long nrh, long ncl, long nch)$/;"	f
+lmatrix3D	memAlloc.c	/^unsigned long ***lmatrix3D(long nrl, long nrh, long ncl, long nch, long ndl, long ndh)$/;"	f
+lmaxarg1	memAlloc.h	/^static long lmaxarg1,lmaxarg2;$/;"	v
+lmaxarg2	memAlloc.h	/^static long lmaxarg1,lmaxarg2;$/;"	v
+lminarg1	memAlloc.h	/^static long lminarg1,lminarg2;$/;"	v
+lminarg2	memAlloc.h	/^static long lminarg1,lminarg2;$/;"	v
+local_refinement	flute.c	/^void local_refinement(Tree *tp, int p)$/;"	f
+lvector	memAlloc.c	/^unsigned long *lvector(long nl, long nh)$/;"	f
+main	flute-ckt.c	/^int main (int argc, char *argv[])$/;"	f
+main	flute-net.c	/^int main(int argc, char* argv[])$/;"	f
+main	rand-pts.c	/^int main(int ac, char *av[])$/;"	f
+mark	flute_mst.c	/^  unsigned int mark;$/;"	m	struct:TreeNode_s	file:
+matrix	memAlloc.c	/^float **matrix(long nrl, long nrh, long ncl, long nch)$/;"	f
+max	flute.h	92;"	d
+maxX	bookshelf_IO.c	/^    float minX, maxX, minY, maxY;$/;"	v
+maxY	bookshelf_IO.c	/^    float minX, maxX, minY, maxY;$/;"	v
+max_arrays_size	neighbors.c	/^long    max_arrays_size = 0;$/;"	v
+max_heap_size	flute_mst.c	/^int max_heap_size = MAX_HEAP_SIZE;$/;"	v
+maxarg1	memAlloc.h	/^static float maxarg1,maxarg2;$/;"	v
+maxarg2	memAlloc.h	/^static float maxarg1,maxarg2;$/;"	v
+mergeRootedTrees	flute_mst.c	/^Tree mergeRootedTrees(TreeNode *tn1, TreeNode *tn2, int *order1)$/;"	f
+merge_into	flute_mst.c	/^Tree merge_into(Tree t1, Tree t2, int common[], int nc, int *o1, int *o2)$/;"	f
+min	flute.h	93;"	d
+minX	bookshelf_IO.c	/^    float minX, maxX, minY, maxY;$/;"	v
+minY	bookshelf_IO.c	/^    float minX, maxX, minY, maxY;$/;"	v
+min_dist	flute_mst.c	/^  DTYPE min_dist, new_x, new_y;$/;"	m	struct:__anon4	file:
+minarg1	memAlloc.h	/^static float minarg1,minarg2;$/;"	v
+minarg2	memAlloc.h	/^static float minarg1,minarg2;$/;"	v
+mix	bookshelf_IO.c	25;"	d	file:
+movableNodes	bookshelf_IO.c	/^    int movableNodes, numTerminals;$/;"	v
+mst2	mst2.c	/^void  mst2$/;"	f
+mst2_package_done	mst2.c	/^void  mst2_package_done()$/;"	f
+mst2_package_init	mst2.c	/^void  mst2_package_init( long  n )$/;"	f
+mst_from_heap	flute_mst.c	/^void mst_from_heap(int d, DTYPE **dist, int node1, int node2, int **nb,$/;"	f
+n	flute.h	/^    int n;   \/\/ index of neighbor$/;"	m	struct:__anon1
+n1	flute_mst.c	/^  TreeNode *n1, *n2;$/;"	m	struct:__anon3	file:
+n1	flute_mst.c	/^  TreeNode *n1, *n2;$/;"	m	struct:__anon4	file:
+n2	flute_mst.c	/^  TreeNode *n1, *n2;$/;"	m	struct:__anon3	file:
+n2	flute_mst.c	/^  TreeNode *n1, *n2;$/;"	m	struct:__anon4	file:
+n2ton1	flute_mst.c	/^  int n2ton1;$/;"	m	struct:__anon4	file:
+name	bookshelf_IO.c	/^        char *name;$/;"	m	struct:nodesHash	file:
+ne_sw_combine	neighbors.c	/^void  ne_sw_combine$/;"	f
+ne_sw_nearest_neighbors	neighbors.c	/^void  ne_sw_nearest_neighbors$/;"	f
+neighbor	flute.c	/^    unsigned char neighbor[2*D-2];$/;"	m	struct:csoln	file:
+netName	bookshelf_IO.c	/^    char **netName = NULL;$/;"	v
+netWeight	bookshelf_IO.c	/^    float *netWeight = NULL;$/;"	v
+netlist	bookshelf_IO.c	/^    int *netlist = NULL;$/;"	v
+netlistIndex	bookshelf_IO.c	/^    int *netlistIndex = NULL;$/;"	v
+netsFile	bookshelf_IO.c	/^    char *netsFile = NULL;$/;"	v
+never_seen	heap.h	22;"	d
+new_ht	flute_mst.c	34;"	d	file:
+new_x	flute_mst.c	/^  DTYPE min_dist, new_x, new_y;$/;"	m	struct:__anon4	file:
+new_x	flute_mst.c	/^  DTYPE new_x, new_y, gain;$/;"	m	struct:__anon3	file:
+new_y	flute_mst.c	/^  DTYPE min_dist, new_x, new_y;$/;"	m	struct:__anon4	file:
+new_y	flute_mst.c	/^  DTYPE new_x, new_y, gain;$/;"	m	struct:__anon3	file:
+next	dl.h	/^  struct dl_el_s *prev, *next;$/;"	m	struct:dl_el_s	typeref:struct:dl_el_s::
+nn	neighbors.c	/^nn_array*  nn   = (nn_array*)NULL;$/;"	v
+nn_array	global.h	/^typedef  long nn_array[8];$/;"	t
+node1	flute_mst.c	/^  int node1, node2;$/;"	m	struct:node_pair_s	file:
+node2	flute_mst.c	/^  int node1, node2;$/;"	m	struct:node_pair_s	file:
+node_pair	flute_mst.c	/^} node_pair;$/;"	t	typeref:struct:node_pair_s	file:
+node_pair_s	flute_mst.c	/^typedef struct node_pair_s { \/\/ pair of nodes representing an edge$/;"	s	file:
+nodesFile	bookshelf_IO.c	/^    char *nodesFile = NULL;$/;"	v
+nodesHash	bookshelf_IO.c	/^    struct nodesHash  {$/;"	s	file:
+numNets	bookshelf_IO.c	/^    int numNets, numPins;$/;"	v
+numNodes	bookshelf_IO.c	/^    int numNodes;$/;"	v
+numPins	bookshelf_IO.c	/^    int numNets, numPins;$/;"	v
+numRowBlockages	bookshelf_IO.c	/^    int numRows, numRowBlockages;$/;"	v
+numRows	bookshelf_IO.c	/^    int numRows, numRowBlockages;$/;"	v
+numTerminals	bookshelf_IO.c	/^    int movableNodes, numTerminals;$/;"	v
+numgrp	flute.c	/^int numgrp[10]={0,0,0,0,6,30,180,1260,10080,90720};$/;"	v
+numsoln	flute.c	/^int numsoln[D+1][MGROUP];$/;"	v
+o	flute.c	/^    int o;$/;"	m	struct:point	file:
+octant	neighbors.c	/^long  octant$/;"	f
+order	flute_mst.c	/^  int order, id;$/;"	m	struct:TreeNode_s	file:
+orderx	flute.c	/^static int orderx(const void *a, const void *b)$/;"	f	file:
+ordery	flute.c	/^static int ordery(const void *a, const void *b)$/;"	f	file:
+parent	flute.c	/^    unsigned char parent;$/;"	m	struct:csoln	file:
+parent	flute_mst.c	/^  struct TreeNode_s *parent;$/;"	m	struct:TreeNode_s	typeref:struct:TreeNode_s::TreeNode_s	file:
+pickWin	flute_mst.c	/^int pickWin(Tree t, DTYPE cx, DTYPE cy, int inWin[])$/;"	f
+plFile	bookshelf_IO.c	/^    char *plFile = NULL;$/;"	v
+plottree	flute.c	/^void plottree(Tree t)$/;"	f
+point	flute.c	/^struct point$/;"	s	file:
+point	global.h	/^struct point$/;"	s
+prev	dl.h	/^  struct dl_el_s *prev, *next;$/;"	m	struct:dl_el_s	typeref:struct:dl_el_s::dl_el_s
+printtree	flute.c	/^void printtree(Tree t)$/;"	f
+readAuxFile	bookshelf_IO.c	/^void readAuxFile(char benchmarkPath[], char auxFile[]) $/;"	f
+readLUT	flute.c	/^void readLUT()$/;"	f
+readNetsFile	bookshelf_IO.c	/^void readNetsFile(char benchmarkPath[], char netsFile[])$/;"	f
+readNodesFile	bookshelf_IO.c	/^void readNodesFile(char benchmarkPath[], char nodesFile[])$/;"	f
+readPlFile	bookshelf_IO.c	/^void readPlFile(char benchmarkPath[], char plFile[])$/;"	f
+readSclFile	bookshelf_IO.c	/^void readSclFile(char benchmarkPath[], char sclFile[])$/;"	f
+readWtsFile	bookshelf_IO.c	/^void readWtsFile(char benchmarkPath[], char wtsFile[], int net_weights)$/;"	f
+redirect	flute_mst.c	/^void redirect(Tree t, DTYPE cx, DTYPE cy)$/;"	f
+reftree	flute_mst.c	/^Tree reftree;  \/\/ reference for qsort$/;"	v
+remove_child	flute_mst.c	/^void remove_child(dl_t children_list, TreeNode* c)$/;"	f
+rot	bookshelf_IO.c	24;"	d	file:
+row_data	bookshelf_IO.h	/^    struct row_data {$/;"	s
+rowcol	flute.c	/^    unsigned char rowcol[D-2];  \/\/ row = rowcol[]\/16, col = rowcol[]%16, $/;"	m	struct:csoln	file:
+runtimeError	memAlloc.c	/^void runtimeError(char error_text[])$/;"	f
+sclFile	bookshelf_IO.c	/^    char *sclFile = NULL;$/;"	v
+seg	flute.c	/^    unsigned char seg[11];  \/\/ Add: 0..i, Sub: j..10; seg[i+1]=seg[j-1]=0$/;"	m	struct:csoln	file:
+sgn	neighbors.c	388;"	d	file:
+sheared	neighbors.c	/^Point*  sheared = (Point*)NULL;$/;"	v
+sift_down	flute_mst.c	/^void sift_down(int i)$/;"	f
+sift_up	flute_mst.c	/^void sift_up(int i)$/;"	f
+siteEndX	bookshelf_IO.c	/^    float siteOriginX, siteEndX, coreWidth;$/;"	v
+siteEndY	bookshelf_IO.c	/^    float siteOriginY, siteEndY, coreHeight;$/;"	v
+siteOrient	bookshelf_IO.h	/^        char siteOrient[3], siteSymmetry[3];$/;"	m	struct:row_data
+siteOriginX	bookshelf_IO.c	/^    float siteOriginX, siteEndX, coreWidth;$/;"	v
+siteOriginY	bookshelf_IO.c	/^    float siteOriginY, siteEndY, coreHeight;$/;"	v
+siteSpacing	bookshelf_IO.h	/^        float siteSpacing;$/;"	m	struct:row_data
+siteSymmetry	bookshelf_IO.h	/^        char siteOrient[3], siteSymmetry[3];$/;"	m	struct:row_data
+siteWidth	bookshelf_IO.h	/^        float siteWidth;$/;"	m	struct:row_data
+smergetree	flute_mst.c	/^Tree smergetree(Tree t1, Tree t2, int *o1, int *o2,$/;"	f
+sorted	neighbors.c	/^long*  sorted   = (long*)NULL;$/;"	v
+splice2	flute_mst.c	/^void splice2(TreeNode *n1, TreeNode *n2, TreeNode *e)$/;"	f
+splice_info	flute_mst.c	/^} splice_info;$/;"	t	typeref:struct:__anon4	file:
+sqrarg	memAlloc.h	/^static float sqrarg;$/;"	v
+submatrix	memAlloc.c	/^float **submatrix(float **a, long oldrl, long oldrh, long oldcl, long oldch, $/;"	f
+subrow_count	bookshelf_IO.h	/^        int subrow_count;$/;"	m	struct:row_data
+subrow_end	bookshelf_IO.h	/^        float subrow_origin[100], subrow_end[100];$/;"	m	struct:row_data
+subrow_origin	bookshelf_IO.h	/^        float subrow_origin[100], subrow_end[100];$/;"	m	struct:row_data
+update_dist2	flute_mst.c	/^void update_dist2(Tree t, DTYPE **dist, DTYPE longest,$/;"	f
+update_subtree	flute_mst.c	/^void update_subtree(TreeNode *p, int id)$/;"	f
+vector	memAlloc.c	/^float *vector(long nl, long nh)$/;"	f
+vmergetree	flute.c	/^Tree vmergetree(Tree t1, Tree t2)$/;"	f
+widthRowBlockage	bookshelf_IO.c	/^    float *widthRowBlockage = NULL;$/;"	v
+wirelength	flute.c	/^DTYPE wirelength(Tree t)$/;"	f
+wmergetree	flute_mst.c	/^Tree wmergetree(Tree t1, Tree t2, int *order1, int *order2,$/;"	f
+writePlFile	bookshelf_IO.c	/^void writePlFile(char outputDir[], char fileName[], float xCoord[], float yCoord[], $/;"	f
+wtsFile	bookshelf_IO.c	/^    char *wtsFile = NULL;$/;"	v
+x	flute.c	/^    DTYPE x, y;$/;"	m	struct:point	file:
+x	flute.h	/^    DTYPE x, y;   \/\/ starting point of the branch$/;"	m	struct:__anon1
+x	flute_mst.c	/^  DTYPE x, y;$/;"	m	struct:TreeNode_s	file:
+x	global.h	/^  long    x, y;$/;"	m	struct:point
+xCellCoord	bookshelf_IO.c	/^    float *xCellCoord = NULL;$/;"	v
+xPinOffset	bookshelf_IO.c	/^    float *xPinOffset = NULL;$/;"	v
+xRowBlockage	bookshelf_IO.c	/^    float *xRowBlockage = NULL;$/;"	v
+x_high	bookshelf_IO.h	/^        float x_high;$/;"	m	struct:row_data
+x_low	bookshelf_IO.h	/^        float x_low;$/;"	m	struct:row_data
+xdata	flute_mst.c	/^} xdata;$/;"	t	typeref:struct:__anon3	file:
+xmergetree	flute_mst.c	/^Tree xmergetree(Tree t1, Tree t2, int *order1, int *order2,$/;"	f
+y	flute.c	/^    DTYPE x, y;$/;"	m	struct:point	file:
+y	flute.h	/^    DTYPE x, y;   \/\/ starting point of the branch$/;"	m	struct:__anon1
+y	flute_mst.c	/^  DTYPE x, y;$/;"	m	struct:TreeNode_s	file:
+y	global.h	/^  long    x, y;$/;"	m	struct:point
+yCellCoord	bookshelf_IO.c	/^    float *yCellCoord = NULL;$/;"	v
+yPinOffset	bookshelf_IO.c	/^    float *yPinOffset = NULL;$/;"	v
+yRowBlockage	bookshelf_IO.c	/^    float *yRowBlockage = NULL;$/;"	v
+y_low	bookshelf_IO.h	/^        float y_low;$/;"	m	struct:row_data

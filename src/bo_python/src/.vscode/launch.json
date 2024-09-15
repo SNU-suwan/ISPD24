@@ -1,0 +1,42 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "(gdb) Launch",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/build/main",
+            "args": [
+                "-m", "92",
+                "-d", "12",
+                "-p", "480",
+                //"-name", "aes_128_util0.7_clk1.3_MINT2_mar5.cts",
+                "-name", "b18_util0.95_clk0.7_MINT2_mar3.cts",
+                //"-threshold", "0.4985",
+                "-threshold", "0.1001",
+                "-cand", "480",
+                "-shift", "1",
+                "-flip", "1",
+                "-choi", "0",
+                "-inf", "6",
+                "-cts", "1",
+                "-cfp", "0" 
+            ],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ]
+        }
+    ]
+}
